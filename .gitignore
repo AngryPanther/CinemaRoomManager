@@ -1,0 +1,24 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+build
+
+
+# idea config
+.idea
+
+# old stages
+/Cinema Room Manager/*
+!/Cinema Room Manager/task/
+/Cinema Room Manager/task/*
+!/Cinema Room Manager/task/src
+
+# Project exclude paths
+/Topics/Arrays as parameters/Adding values/out/
+/Topics/Arrays as parameters/Adding values/out/production/classes/
+/Topics/Declaring methods/Sum of numbers in the range/out/
+/Topics/Declaring methods/Sum of numbers in the range/out/production/classes/
+/Topics/NullPointerException/Avoid NPE/out/
+/Topics/NullPointerException/Avoid NPE/out/production/classes/
