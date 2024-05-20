@@ -82,7 +82,7 @@ public class Cinema {
         int ticketPrice;
         boolean validSeat = false;
 
-        // Address invalid inputs such as seats that do not exist in the room or if the ticket has already been purchased
+        // Assert for invalid inputs such as seats that do not exist in the room or if the ticket has already been purchased
         // Keeping in mind customer input are off by 1 compared to array indexing
         while (!validSeat) {
             System.out.printf("%nEnter a row number:");
